@@ -1,0 +1,9 @@
+{
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "npx ts-node --files"
+  },
+  "editor.guides.bracketPairs":"active",
+  "editor.bracketPairColorization.enabled": true,
+ 
+}
