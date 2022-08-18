@@ -1,6 +1,12 @@
-import { EnterpriseCustomerProtocol, ICustomerOrder, IndividualCustomerProtocol } from './interfaces/customer-protocol';
+import {
+  EnterpriseCustomerProtocol,
+  ICustomerOrder,
+  IndividualCustomerProtocol,
+} from './interfaces/customer-protocol';
 
-export class IndividualCustomer implements IndividualCustomerProtocol, ICustomerOrder {
+export class IndividualCustomer
+  implements IndividualCustomerProtocol, ICustomerOrder
+{
   cpf: string;
   firstName: string;
   lastName: string;
@@ -17,7 +23,9 @@ export class IndividualCustomer implements IndividualCustomerProtocol, ICustomer
     return this.cpf;
   }
 }
-export class EnterpriseCustomer implements EnterpriseCustomerProtocol, ICustomerOrder {
+export class EnterpriseCustomer
+  implements EnterpriseCustomerProtocol, ICustomerOrder
+{
   name: string;
   cnpj: string;
 
